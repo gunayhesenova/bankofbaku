@@ -1,0 +1,269 @@
+#main {
+  background-color: #04c3f4;
+}
+#main .left {
+  position: absolute;
+  left: 18%;
+  top: 90%;
+  cursor: pointer;
+  z-index: 3;
+}
+#main .right {
+  position: absolute;
+  left: 81%;
+  top: 90%;
+  cursor: pointer;
+  z-index: 3;
+}
+#main .slayd {
+  position: relative;
+  bottom: 200px;
+  left: 20%;
+  height: 155px;
+  width: 840px;
+  z-index: 1;
+  overflow: hidden;
+}
+#main .slayd .first {
+  width: 480px;
+  height: 155px;
+  float: left;
+}
+#main .slayd .first img {
+  position: absolute;
+}
+#main .slayd .first img:first-child {
+  z-index: 1;
+}
+#main .slayd .first .imgleft {
+  left: -480px;
+}
+#main .slayd .second {
+  z-index: 3;
+  width: 180px;
+  height: 155px;
+  float: left;
+  position: absolute;
+  left: 480px;
+}
+#main .slayd .second img {
+  position: absolute;
+}
+#main .slayd .second .imgleft2 {
+  left: -180px;
+}
+#main .slayd .third {
+  z-index: 9;
+  width: 180px;
+  height: 155px;
+  float: left;
+  position: absolute;
+  left: 660px;
+}
+#main .slayd .third img {
+  position: absolute;
+  z-index: 9;
+}
+#main .slayd .third .imgleft2 {
+  left: -180px;
+}
+#main .call,
+#main .pay,
+#main .branch {
+  cursor: default;
+}
+#main .item,
+#main .kredit,
+#main .emanet,
+#main .online,
+#main .korporativ {
+  border-left: 1px dashed #ffffff;
+  height: 750px;
+  padding-top: 30px;
+  cursor: pointer;
+}
+#main .item {
+  z-index: 1;
+  overflow: hidden;
+  position: relative;
+}
+#main .item .sekil1 {
+  opacity: 0;
+  width: 225px;
+  height: 900px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateX(-20px);
+}
+#main .item .circle1 {
+  margin-left: 17px;
+  width: 160px;
+  height: 160px;
+  background: #ffffff;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-top: 40%;
+  padding: 10px;
+}
+#main .item .circle1 img {
+  cursor: pointer;
+}
+#main .item .circle1 p {
+  color: #04c3f4;
+}
+#main .kredit .calldiv {
+  margin: 0 10px 0 10px;
+}
+#main .kredit img {
+  float: left;
+}
+#main .kredit a {
+  color: #ffffff;
+  margin-left: 5px;
+}
+#main .kredit .circle2 {
+  margin-left: 17px;
+  width: 160px;
+  height: 160px;
+  background: #ffffff;
+  border-radius: 50%;
+  margin-top: 68%;
+  padding: 10px;
+}
+#main .kredit .circle2 img {
+  cursor: pointer;
+}
+#main .kredit .circle2 p {
+  color: #04c3f4;
+}
+#main .emanet img {
+  float: left;
+}
+#main .emanet a {
+  color: #ffffff;
+  margin-left: 5px;
+}
+#main .emanet .circle3 {
+  margin-left: 17px;
+  width: 160px;
+  height: 160px;
+  background: #ffffff;
+  border-radius: 50%;
+  margin-top: 68%;
+  padding: 10px;
+}
+#main .emanet .circle3 img {
+  cursor: pointer;
+}
+#main .emanet .circle3 p {
+  color: #04c3f4;
+}
+#main .online .circle4 {
+  margin-left: 17px;
+  width: 160px;
+  height: 160px;
+  background: #ffffff;
+  border-radius: 50%;
+  margin-top: 68%;
+  padding: 10px;
+}
+#main .online .circle4 img {
+  cursor: pointer;
+}
+#main .online .circle4 p {
+  color: #04c3f4;
+}
+#main .online img {
+  float: left;
+}
+#main .online ul {
+  margin-left: 5px;
+}
+#main .online ul li {
+  list-style: none;
+  display: inline-block;
+}
+#main .online ul li a {
+  color: #ffffff;
+}
+#main .korporativ {
+  border-right: 1px dashed #ffffff;
+}
+#main .korporativ .all .btn {
+  width: 88%;
+}
+#main .korporativ .langs li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 5px;
+}
+#main .korporativ .langs .az {
+  border-radius: 50%;
+  background: #ffffff;
+  padding: 2px;
+}
+#main .korporativ .langs .az a {
+  text-decoration: none;
+  cursor: default;
+}
+#main .korporativ .circle5 {
+  width: 160px;
+  height: 160px;
+  background: #ffffff;
+  border-radius: 50%;
+  margin-top: 55%;
+  padding: 10px;
+  margin-left: 17px;
+}
+#main .korporativ .circle5 img {
+  cursor: pointer;
+}
+#main .korporativ .circle5 p {
+  color: #04c3f4;
+}
+.main2 {
+  display: none;
+  position: absolute;
+  top: 30px;
+  left: 10%;
+}
+.boody {
+  width: 100%;
+  height: 100px;
+  background: #04c3f4;
+}
+.size {
+  font-size: 11px;
+}
+.size1 {
+  font-size: 11px;
+  margin-left: 40px;
+}
+.ulii li {
+  display: inline-block;
+  float: left;
+  margin-right: 5px;
+  text-align: center;
+}
+.firt {
+  margin-left: 25px;
+}
+.inp {
+  height: 25px;
+  font-size: 11px;
+  color: #0068a6;
+  padding: 0 15px;
+  border: 0;
+  width: 160px;
+  border-radius: 30px;
+  background: white;
+  display: inline-block;
+}
+.button3 {
+  float: right;
+  width: 30px;
+  height: 25px;
+  border: none;
+  background: none;
+}

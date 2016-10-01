@@ -1,0 +1,187 @@
+/*.center{
+  width: 224px;
+  height: 650px;
+  background: #04c3f4;
+  border:1px dashed white ;
+
+}
+
+.circle{
+  width: 500px;
+  height: 100px;
+  background:url("images/1.png");
+  /*background: red;*/
+/* background-position: 100px 0px;*/
+/*}*/
+/*.arxa{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: white;
+
+
+}*/
+body{
+  color: white;
+
+}
+.page1{
+  width: 950px;
+  height: 500px;
+  background: #0068a7;
+  margin: 30px auto;
+  border-radius: 7px;
+  padding-left: 10px
+}
+
+.ust{
+  width: 100%;
+  height: 50px;
+  margin-top: 30px;
+  background:#0068a7
+}
+.all2{
+  width: 42%;
+  height: 26px;
+  background: white;
+  border-radius: 7px;
+  box-shadow: 0 0 5px #0068a7 inset;
+  line-height: 26px;
+  background: #ffffff;
+  padding: 0 16px;
+  cursor: pointer;
+  margin-bottom: 24px;
+  font-size: 12px;
+  color: #4194c6
+}
+.first2div{
+  width: 100%;
+  height: 150px;
+  
+
+}
+.bowluqIcon{
+  width: 11%;
+  height: 120px;
+                /*background: yellow;*/
+  display: inline-block;
+  float: left;
+  border-bottom: 1px solid #4194c6;
+  margin-bottom: 20px;
+
+}
+.bowluq2{
+  width:80%;
+  height: 120px;
+  float: left;
+                 /*background: pink;*/
+  border-bottom: 1px solid #4194c6;
+  margin-bottom: 40px;
+
+}
+.icon{
+ width: 100%;
+ height: 30px;
+ display: block;
+ /*padding-top: 5px;*/
+ text-align: center;
+}
+ul{
+  padding:0px;
+  color: white
+
+}
+.firstLi{
+      list-style: none;
+      margin-bottom: 10px;
+      margin-left: 5px;
+     }
+.secondLi{
+   list-style: none;
+   margin-top: 10px;
+   margin-left: 5px;
+}
+
+a {
+    color: white;
+     text-decoration: underline; 
+}
+a:hover{
+  color: white;
+     text-decoration: none; 
+}
+
+.bowluq3{
+  width:80%;
+  height: 220px;
+  float: left;
+                 /*background: pink;*/
+  /*border-bottom: 1px solid #4194c6;*/
+  
+}
+.bowluqIcon2{
+  width: 11%;
+  height: 220px;
+                /*background: yellow;*/
+  display: inline-block;
+  float: left;
+  /*border-bottom: 1px solid #4194c6;*/
+  margin-bottom: 20px;
+}
+
+.icon2{
+ width: 100%;
+ height: 30px;
+ display: block;
+ 
+ text-align: center;
+}
+.col1{
+  width: 100%;
+  height: 380px;
+  border-right: 1px solid #4194c6
+}
+.ust2{
+  width: 100%;
+  height: 50px;
+  margin-top: 10px;
+  background: #0068a7
+}
+.bowluqIcon3{
+  width: 11%;
+  height: 220px;
+                /*background: yellow;*/
+  display: inline-block;
+   /*border-bottom: 1px solid #4194c6;*/
+  float: left;
+  
+ 
+}
+.bowluqIcon4{
+  width: 11%;
+  height: 220px;
+                /*background: yellow;*/
+  display: inline-block;
+   /*border-bottom: 1px solid white;*/
+  float: left;
+  
+ 
+}
+.col2{
+  width: 100%;
+  height: 380px;
+  
+}
+.butun{
+  float: right;
+  margin-right: 10px;
+  font-size: 12px;
+
+}
+.cixish{
+  width: 8%;
+  height: 22px;
+            /*background: yellow;*/
+  float: right;
+  cursor: pointer;
+}

@@ -1,0 +1,305 @@
+@color1:#04C3F4;
+@color2:white;
+@border:10px;
+@padding:10px;
+@margin:40px;
+@width:300px;
+@height:300px;
+@borderradius:50%;
+#main{.left{
+			position: absolute;
+			left:18%;
+			top:90%;
+			cursor: pointer;
+			z-index: 3;
+		}
+		.right{
+			position: absolute;
+			left:81%;
+			top:90%;
+			cursor: pointer;
+			z-index: 3;
+		}
+// slayd css
+	.slayd{
+		position: relative;
+		bottom:200px;
+		left: 20%;
+		height: 155px;
+		width:840px;
+		z-index: 1;
+		overflow: hidden;
+
+		
+		.first{
+			width: 480px;
+			height: 155px;
+			float: left;
+			img{
+				position: absolute;
+			}
+			img:first-child{
+				z-index: 1
+			}
+			.imgleft{
+				left:-480px
+			}
+		}
+		.second{
+			z-index:3;
+			width: 180px;
+			height: 155px;
+			float: left;
+			position: absolute;
+			left:480px;
+			img{
+				position: absolute;
+			}
+			.imgleft2{
+				left:-180px
+			}
+		}
+		.third{
+
+			z-index:9;
+			width: 180px;
+			height: 155px;
+			float: left;
+			position: absolute;
+			left:660px;
+			img{
+				position: absolute;
+				z-index: 9;
+			}
+			.imgleft2{
+				left:-180px
+			}
+		}
+		
+	}
+// slayd css end
+	background-color:@color1;
+	.call,.pay,.branch{
+		cursor: default;
+	}	
+		.item,.kredit,.emanet,.online,.korporativ{
+			border-left:@border / 10 dashed @color2;
+			height: 2.5 * @height;
+			padding-top:3 * @padding;
+			cursor:pointer;
+
+		}
+		.item{position: relative;
+				z-index:1;
+			overflow: hidden;
+			position: relative;
+			.sekil1{
+				opacity: 0;
+				width:225px;
+				height:900px;
+				position: absolute;
+				top:0;
+				left:0;
+				transform:translateX(-20px)
+			}
+			
+			.circle1
+			{
+
+				margin-left: 17px;
+				width:@width - 140px;
+				height: @height - 140px;
+				background:@color2;
+				border-radius:@borderradius;
+				overflow: hidden;
+				margin-top: @borderradius - 10%;
+				padding: @padding;
+				img{
+				cursor:pointer;
+					}
+				p{
+					color:@color1;
+				}
+
+			}
+		}
+		.kredit{
+			.calldiv{
+				margin:0 10px 0 10px;
+			}
+			img{
+				float: left;
+			}
+			a{
+				color:@color2;
+				margin-left: 5px;
+			}
+			.circle2{
+				margin-left: 17px;
+				width:@width - 140px;
+				height: @height - 140px;
+				background:@color2;
+				border-radius:@borderradius;
+				margin-top: @borderradius + 18%;
+				padding: @padding;
+				img{
+				cursor:pointer;
+					}
+				p{
+					color:@color1;
+				}
+			}
+		}
+		.emanet{
+			img{
+				float: left;
+			}
+			a{
+				color:@color2;
+				margin-left: 5px;
+			}
+			.circle3
+			{
+				    margin-left: 17px;
+				width:@width - 140px;
+				height: @height - 140px;
+				background:@color2;
+				border-radius:@borderradius;
+				margin-top: @borderradius + 18%;
+				padding: @padding;
+				img{
+				cursor:pointer;
+					}
+				p{
+					color:@color1;
+				}
+
+			}
+
+		}
+		.online{
+			.circle4
+			{
+				    margin-left: 17px;
+				width:@width - 140px;
+				height: @height - 140px;
+				background:@color2;
+				border-radius:@borderradius;
+				margin-top: @borderradius + 18%;
+				padding: @padding;
+				img{
+				cursor:pointer;
+					}
+				p{
+					color:@color1;
+				}
+
+			}
+			img{
+				float: left;
+			}
+			ul{
+				margin-left: 5px;
+				li{
+					list-style: none;
+					display: inline-block;
+					a{
+						color:@color2;
+					}
+				}
+
+			}
+		}
+		.korporativ{
+			border-right:@border / 10 dashed @color2;
+					.all
+				{
+					.btn{
+						width:88%
+					}
+				}
+				.langs{
+					li{
+						list-style-type: none;
+						display: inline-block;
+						margin:@margin / 8;}
+						.az{
+							border-radius: @borderradius;
+							background:@color2;
+							padding: @padding / 5;
+							a{
+								text-decoration: none;
+								cursor: default;
+							}
+						}
+					
+					
+		}
+		.circle5
+			{
+				width:@width - 140px;
+				height: @height - 140px;
+				background:@color2;
+				border-radius:@borderradius;
+				margin-top: @borderradius + 5%;
+				padding: @padding;
+				    margin-left: 17px;
+				img{
+				cursor:pointer;
+					}
+				p{
+					color:@color1;
+				}
+
+			}
+				}
+
+
+}
+.main2{
+	display: none;
+	position: absolute;
+	top:30px;
+	left: 10%
+}
+.boody{
+		width: 100%;
+		height: 100px;
+		background: #04c3f4
+	}
+	.size{
+	font-size: 11px;
+	
+	}
+	.size1{
+	font-size: 11px;
+	margin-left: 40px;
+
+	}
+	.ulii li{
+		display: inline-block;
+		float: left;
+		margin-right: 5px;
+		text-align: center
+	}
+	.firt{
+		margin-left: 25px
+	}
+	.inp{
+		height: 25px;
+	    font-size: 11px;
+	    color: #0068a6;
+	    padding: 0 15px;
+	    border: 0;
+	    width: 160px;
+	    border-radius: 30px;
+	    background: white;
+	    display: inline-block;
+	}
+	.button3{
+		float: right;
+		width: 30px;
+		height: 25px;
+		border: none;
+		background: none;
+	}

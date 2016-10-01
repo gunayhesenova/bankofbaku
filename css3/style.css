@@ -1,0 +1,140 @@
+.animate{
+	width: 925px;
+	height: 157px;
+	position: absolute;
+	top: 61%;
+	left: 16%;
+	z-index: 2;
+	cursor: pointer;
+	overflow: hidden
+	}
+.relat{
+	position: relative;
+	}
+.leftOx{
+	width: 65px;
+	height: 65px;
+	position: absolute;
+	top: 30%;
+	left: -4%;
+	z-index: 7;
+	cursor: pointer;
+	}
+.rightOx{
+	width: 65px;
+	height: 65px;
+	position: absolute;
+	top: 30%;
+	right: -4%;
+	z-index:7;
+	cursor: pointer;
+	}
+.ani1{
+	width: 480px;
+	height: 150px;
+	z-index: 2;
+	cursor: pointer;
+	background: red;
+	display: inline-block;
+	float: left;
+	-webkit-transition: width 1s ;
+	 position: absolute;
+	 left: 0px
+	}
+.ani2{
+	width: 480px;
+	height: 150px;
+	z-index: 2;
+	cursor: pointer;
+	background: red;
+	display: inline-block;
+	-webkit-transition: width 1s ;
+ 	position: absolute;
+	left: 480px;
+
+	}
+.ani3{
+	width: 480px;
+	height: 150px;
+	z-index: 2;
+	cursor: pointer;
+	background: red;
+	display: inline-block;
+	-webkit-transition: width 1s ;
+	position: absolute;
+	left: 636px;;
+	}
+.ani4{
+	width: 480px;
+	height: 150px;
+	z-index: 2;
+	cursor: pointer;
+	background: red;
+	display: inline-block;
+	-webkit-transition: width 1s ;
+ 	position: absolute;
+	left: 786px;
+	}
+.ani5{
+	width: 480px;
+	height: 150px;
+	z-index: 2;
+	cursor: pointer;
+	background: red;
+	display: inline-block;
+	-webkit-transition: width 1s ;
+	position: absolute;
+	left: 942px;
+	}
+
+	.klaviw{
+	width: 925px;
+    height: 157px;
+    position: absolute;
+    top: 61%;
+    left: 16%;
+    z-index: 2;
+    cursor: pointer;
+	
+	}
+	.boody{
+		width: 100%;
+		height: 100px;
+		background: #04c3f4
+	}
+	.size{
+	font-size: 11px;
+	
+	}
+	.size1{
+	font-size: 11px;
+	margin-left: 40px;
+
+	}
+	.ulii li{
+		display: inline-block;
+		float: left;
+		margin-right: 5px;
+		text-align: center
+	}
+	.firt{
+		margin-left: 25px
+	}
+	.inp{
+		height: 25px;
+	    font-size: 11px;
+	    color: #0068a6;
+	    padding: 0 15px;
+	    border: 0;
+	    width: 160px;
+	    border-radius: 30px;
+	    background: white;
+	    display: inline-block;
+	}
+	.button3{
+		float: right;
+		width: 30px;
+		height: 25px;
+		border: none;
+		background: none;
+	}
